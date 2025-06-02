@@ -1,0 +1,34 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+
+body {
+  background-color: #f8f9fa;
+}
+.card {
+  border-radius: 0.75rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+h4, h5 {
+  font-weight: 600;
+}
+.valor-alto {
+  color: red;
+  font-weight: bold;
+}
+.valor-baixo {
+  color: orange;
+  font-weight: bold;
+}
+
+.thead-azul{
+  background:#2f4858;
+  color: white;
+}
+
+#grafico {
+  max-height: 250px;
+}
+
+#cardResumo {
+    border-radius: 12px;
+    transition: background-color 0.4s ease;
+}
