@@ -1,5 +1,5 @@
 <?php
-session_start(); // Inicia a sessão
+session_start(); // Inicia a sessão.
 header("Content-Type: application/json");
 include('conexao.php');
 
